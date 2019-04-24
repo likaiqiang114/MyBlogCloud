@@ -1,10 +1,11 @@
 package entity;
 
+//返回结果类
 public class Result {
-    private boolean flag;
-    private Integer code;
-    private String massage;
-    private Object data;
+    private boolean flag;//是否成功标志
+    private Integer code;//状态码
+    private String massage;//返回信息
+    private Object data;//返回数据
 
     public Result() {
     }
