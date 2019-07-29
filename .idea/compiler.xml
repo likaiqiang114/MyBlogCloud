@@ -6,15 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MyBlog_article" />
         <module name="MyBlog_base" />
         <module name="MyBlog_common" />
+        <module name="MyBlog_gathering" />
+        <module name="tensquare_qa" />
+        <module name="tensquare_recruit" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyBlog_article" options="-parameters" />
       <module name="MyBlog_base" options="-parameters" />
       <module name="MyBlog_common" options="-parameters" />
+      <module name="MyBlog_gathering" options="-parameters" />
+      <module name="tensquare_qa" options="-parameters" />
+      <module name="tensquare_recruit" options="-parameters" />
     </option>
   </component>
 </project>
