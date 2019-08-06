@@ -36,7 +36,7 @@ public class LabelService {
         return labelDao.findById(id).get();
     }
 
-    //既能做保存又能做更新的save
+    //既能做保存又能做更新的labelDao.save
     public void save(Label label){
         label.setId(idWorker.nextId()+"");
         labelDao.save(label);

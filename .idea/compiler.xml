@@ -10,6 +10,7 @@
         <module name="MyBlog_base" />
         <module name="MyBlog_common" />
         <module name="MyBlog_gathering" />
+        <module name="Myblog_spit" />
         <module name="tensquare_qa" />
         <module name="tensquare_recruit" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="MyBlog_base" options="-parameters" />
       <module name="MyBlog_common" options="-parameters" />
       <module name="MyBlog_gathering" options="-parameters" />
+      <module name="Myblog_spit" options="-parameters" />
       <module name="tensquare_qa" options="-parameters" />
       <module name="tensquare_recruit" options="-parameters" />
     </option>

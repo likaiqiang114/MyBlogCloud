@@ -1,0 +1,12 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: Myblog-spit
+
+  data:
+    mongodb:
+      host: 192.168.135.135
+      database: spitdb
+  redis:
+    host: 192.168.135.135

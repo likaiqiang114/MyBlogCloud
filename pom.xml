@@ -14,6 +14,7 @@
         <module>MyBlog_qa</module>
         <module>MyBlog_article</module>
         <module>MyBlog_gathering</module>
+        <module>Myblog_spit</module>
 
     </modules>
     <packaging>pom</packaging>
