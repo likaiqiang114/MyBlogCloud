@@ -1,15 +1,13 @@
-package com.wincor.article;
+package com.wincor.user;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import util.IdWorker;
 @SpringBootApplication
-@EnableEurekaClient
-public class ArticleApplication {
+public class UserApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ArticleApplication.class, args);
+		SpringApplication.run(UserApplication.class, args);
 	}
 
 	@Bean

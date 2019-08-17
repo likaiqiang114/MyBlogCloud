@@ -14,8 +14,10 @@
         <module>MyBlog_qa</module>
         <module>MyBlog_article</module>
         <module>MyBlog_gathering</module>
-        <module>Myblog_spit</module>
+        <module>MyBlog_spit</module>
         <module>MyBlog_search</module>
+        <module>MyBlog_user</module>
+        <module>MyBlog_eureka</module>
 
     </modules>
     <packaging>pom</packaging>
@@ -32,6 +34,17 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.M9</version> <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>

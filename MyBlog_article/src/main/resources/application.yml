@@ -13,3 +13,9 @@ spring:
     show-sql: true
   redis:
     host: 192.168.135.135
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true #服务器上，模块之间可以跨域访问

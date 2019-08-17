@@ -9,9 +9,11 @@
         <module name="MyBlog_article" />
         <module name="MyBlog_base" />
         <module name="MyBlog_common" />
+        <module name="MyBlog_eureka" />
         <module name="MyBlog_gathering" />
         <module name="MyBlog_search" />
-        <module name="Myblog_spit" />
+        <module name="MyBlog_spit" />
+        <module name="MyBlog_user" />
         <module name="tensquare_qa" />
         <module name="tensquare_recruit" />
       </profile>
@@ -22,9 +24,11 @@
       <module name="MyBlog_article" options="-parameters" />
       <module name="MyBlog_base" options="-parameters" />
       <module name="MyBlog_common" options="-parameters" />
+      <module name="MyBlog_eureka" options="-parameters" />
       <module name="MyBlog_gathering" options="-parameters" />
       <module name="MyBlog_search" options="-parameters" />
-      <module name="Myblog_spit" options="-parameters" />
+      <module name="MyBlog_spit" options="-parameters" />
+      <module name="MyBlog_user" options="-parameters" />
       <module name="tensquare_qa" options="-parameters" />
       <module name="tensquare_recruit" options="-parameters" />
     </option>
